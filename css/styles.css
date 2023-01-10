@@ -1,0 +1,169 @@
+body{
+  font-family:"Montserrat";
+  text-align: center;
+}
+h1, h2 , h3, h4, h5, h6 {
+  font-family:"Montserrat-Bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading{
+  font-family:"Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+}
+/* containers */
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+
+ /* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.white-section{
+  background-position: #fff;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding-bottom:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  paddding: 0 18px;
+  font-size: 1.5rem;
+
+}
+.nav-link{
+ font-family:"Montserrat-light";
+
+}
+
+/* DownloadButtons */
+
+.download-buttons{
+  margin: 5% 3% 5% 0;
+}
+
+ /* title-section */
+
+ #title .container-fluid{
+   padding: 3% 15% ;
+   text-align: left;
+}
+
+
+/* title-image */
+
+.hero-img{
+   width: 50%;
+   transform: rotate(25deg);
+}
+
+/* features section */
+
+#features{
+  background-color: #fff;
+}
+.feature-title{
+   font-size: 1.5rem;
+}
+.feature-box{
+  padding: 5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+
+}
+.row .fab{
+  margin-right: 10px;
+}
+
+/* testimonial section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonail-text{
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+.testimonials-image{
+  width:20%;
+  padding-top: 20px;
+  border-radius: 200%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1008px) {
+
+  #title{
+    text-align: center;
+  }
+  .hero-img {
+    position: static;
+    transform:rotate(0);
+  }
+
+}
+
+.cta-heading{
+  font-family: "Monserrat-Black";
+  font-size:3.5rem;
+  line-height:1.5;
+}
+
+
+/* footer section */
+
+.social-icon{
+  margin: 20px 10px;
+
+} 
